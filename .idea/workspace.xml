@@ -22,12 +22,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b343c735-e699-4e4b-bd2e-8509b11a52d0" name="Default Changelist" comment="sqlx测试2">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/925d4cae-d4ae-4120-ab39-4db6fcd92ccc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/925d4cae-d4ae-4120-ab39-4db6fcd92ccc/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="b343c735-e699-4e4b-bd2e-8509b11a52d0" name="Default Changelist" comment="gin官方文档实例2">
+      <change afterPath="$PROJECT_DIR$/sql.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,7 +62,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../bluebell" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.SQL" />
   </component>
-  <component name="RunManager" selected="Go Build.go build 单文件上传.go">
+  <component name="RunManager" selected="Go Build.go build sql.go">
     <configuration name="go build 单文件上传.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="helloworld" />
       <working_directory value="$PROJECT_DIR$" />
@@ -94,11 +90,20 @@
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build select.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build post测试.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="helloworld" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/select.go" />
+      <filePath value="$PROJECT_DIR$/post测试.go" />
+      <package value="helloworld" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build sql.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="helloworld" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/sql.go" />
       <package value="helloworld" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
@@ -114,11 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build sql.go" />
         <item itemvalue="Go Build.go build 单文件上传.go" />
         <item itemvalue="Go Build.go build 获取post参数.go" />
         <item itemvalue="Go Build.go build 获取get参数.go" />
         <item itemvalue="Go Build.go build test2.go" />
-        <item itemvalue="Go Build.go build select.go" />
       </list>
     </recent_temporary>
   </component>
@@ -141,7 +146,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="sqlx测试" />
     <MESSAGE value="sqlx测试2" />
-    <option name="LAST_COMMIT_MESSAGE" value="sqlx测试2" />
+    <MESSAGE value="gin官方文档实例" />
+    <MESSAGE value="gin官方文档实例2" />
+    <option name="LAST_COMMIT_MESSAGE" value="gin官方文档实例2" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
@@ -164,37 +171,41 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1675005922660" />
-    <state width="1493" height="203" key="GridCell.Tab.0.bottom" timestamp="1675687251802">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1474" height="200" key="GridCell.Tab.0.bottom" timestamp="1676947622376">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1493" height="203" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1675687251802" />
-    <state width="1493" height="203" key="GridCell.Tab.0.center" timestamp="1675687251802">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1474" height="200" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1676947622376" />
+    <state width="1493" height="203" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1676458192426" />
+    <state width="1474" height="200" key="GridCell.Tab.0.center" timestamp="1676947622376">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1493" height="203" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1675687251802" />
-    <state width="1493" height="203" key="GridCell.Tab.0.left" timestamp="1675687251802">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1474" height="200" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1676947622376" />
+    <state width="1493" height="203" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1676458192425" />
+    <state width="1474" height="200" key="GridCell.Tab.0.left" timestamp="1676947622376">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1493" height="203" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1675687251802" />
-    <state width="1493" height="203" key="GridCell.Tab.0.right" timestamp="1675687251802">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1474" height="200" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1676947622376" />
+    <state width="1493" height="203" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1676458192425" />
+    <state width="1474" height="200" key="GridCell.Tab.0.right" timestamp="1676947622376">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1493" height="203" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1675687251802" />
+    <state width="1474" height="200" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1676947622376" />
+    <state width="1493" height="203" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1676458192426" />
     <state x="270" y="57" key="SettingsEditor" timestamp="1674993972760">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="270" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1674993972760" />
-    <state x="361" y="141" key="Vcs.Push.Dialog.v2" timestamp="1675431007672">
+    <state x="361" y="141" key="Vcs.Push.Dialog.v2" timestamp="1675687442507">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="141" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1675431007672" />
+    <state x="361" y="141" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1675687442507" />
     <state x="573" y="325" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1675430521160">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="573" y="325" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1675430521160" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1675264593948">
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1675687387330">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1675264593948" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1675687387330" />
   </component>
 </project>
